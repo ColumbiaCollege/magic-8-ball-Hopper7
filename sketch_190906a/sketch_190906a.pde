@@ -1,4 +1,5 @@
 //Shane Hopper
+
 String[] Doug = {"can't talk about it", 
   "Not Likely", 
   "Absolutely", 
@@ -7,13 +8,13 @@ String[] Doug = {"can't talk about it",
   "Think Again", 
   "Damn Straight", 
   "Fosho Bro"};
-  
+
 //set startup screen
 void setup() {
   size(501, 501);
   background(0);
   fill(255);
-  ellipse(width/2,height/2,381,381);
+  ellipse(width/2, height/2, 381, 381);
   noFill();
   strokeWeight(20);
   stroke(0);
@@ -28,12 +29,12 @@ void draw() {
 void mousePressed() {
   background(0);
   fill(255);
-  ellipse(width/2,height/2,400,400);
+  ellipse(width/2, height/2, 400, 400);
   noFill();
   strokeWeight(20);
   stroke(0);
-  rect(213,170,70,70,31);
-  rect(209,250,80,80,33);
+  rect(213, 170, 70, 70, 31);
+  rect(209, 250, 80, 80, 33);
 }
 
 //shows answer
@@ -43,7 +44,7 @@ void mouseReleased() {
   noFill();
   fill(#051A9B);
   noStroke();
-  triangle(width/2,450,50,150,450,150);
+  triangle(width/2, 450, 50, 150, 450, 150);
   fill(255);
   //fill(#6A7EFF);
   textSize(30);
